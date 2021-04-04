@@ -31,7 +31,7 @@ const sweetAlarm = (ErrorText) => {
     width: 1000,
     padding: '3em',
     background: '#ff0000',
-    timer: 50000,
+    //timer: 50000,
     icon: 'warning',
     backdrop: `
     rgba(255, 99, 71, 0.8)    `,
