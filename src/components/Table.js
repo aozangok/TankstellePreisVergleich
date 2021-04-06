@@ -72,7 +72,7 @@ const PriceTable = () => {
     getTankstelleProps();
     const interval = setInterval(() => {
       getTankstelleProps();
-    }, 60000);
+    }, 300000);
 
     return () => clearInterval(interval);
   }, []);
